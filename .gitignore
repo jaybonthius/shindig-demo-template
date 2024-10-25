@@ -1,0 +1,15 @@
+.env
+compiled
+coverage
+node_modules
+node_modules/
+compiled/
+__pycache__/
+.venv/
+temp/
+.env
+**/*.html
+sqlite/free-response-questions.sqlite
+sqlite/free-response-submissions.sqlite
+content/static/css/output.css
+shindig

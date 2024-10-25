@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "type": "module",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "open-props": "^1.7.7",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "postcss-custom-media": "^11.0.4",
+    "postcss-jit-props": "^1.0.14",
+    "postcss-minify": "^1.1.0",
+    "postcss-nested": "^6.2.0",
+    "postcss-preset-env": "^10.0.8"
+  },
+  "devDependencies": {
+    "@kitschpatrol/tldraw-cli": "^4.6.13"
+  },
+  "scripts": {
+    "css": "postcss content/static/css/input.css -o content/static/css/output.css --watch",
+    "build:css": "postcss content/static/css/input.css -o content/static/css/output.css"
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
+}
